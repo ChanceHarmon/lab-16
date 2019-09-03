@@ -10,5 +10,14 @@
   "license": "MIT",
   "dependencies": {
     "jest": "^24.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanceHarmon/lab-16.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ChanceHarmon/lab-16/issues"
+  },
+  "homepage": "https://github.com/ChanceHarmon/lab-16#readme"
 }
