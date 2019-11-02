@@ -1,11 +1,11 @@
-
 'use strict';
+const event = require('./event');
 
-const events = require('./events.js');
+event.on('readFile', content => log('Read File', content));
+event.on('writeFile', content => log('Write File', content));
+event.on('error', error => log('Error', error));
 
-events.on('cache-update', payload => log('cache-update', payload));
-
-function log(event, payload) {
+function log(event, content) {
   let time = new Date();
-  console.log({ event, time, payload });
+  console.log({ event, time, content });
 }
